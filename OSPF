@@ -1,0 +1,6 @@
+Router>en           	
+Router#config t
+Router(config)#router ospf 7
+Router(config-router)#network 4.0.0.0 255.0.0.0 area 0
+Router(config-router)#network 10.0.0.0 255.0.0.0 area 0
+Router(config-router)#exit 
