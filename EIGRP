@@ -1,0 +1,7 @@
+Router>en
+Router#conf t
+Router(config)#router eigrp 7
+Router(config-router)#network 9.0.0.0 255.0.0.0 
+Router(config-router)#network 11.0.0.0 255.0.0.0 
+Router(config-router)#network 10.0.0.0 255.0.0.0 
+Router(config-router)#exit
